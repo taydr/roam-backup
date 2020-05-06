@@ -35,7 +35,7 @@ const generateExport = async () => {
 
     await page.$eval(".bp3-button", el => el.click());
 
-    await page.waitFor(5000);
+    await page.waitFor(25000);
 
     console.log("Successfully logged in");
 
